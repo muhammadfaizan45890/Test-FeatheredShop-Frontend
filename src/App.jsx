@@ -19,6 +19,8 @@ import AuthSuccess from './pages/AuthSuccess';
 import NotFound from './pages/NotFound';
 import Courses from './pages/Courses';
 import NewArrivals from './pages/NewArrivals';
+import Shop from './pages/Shop';
+
 
 // Layout component that conditionally shows Navbar
 const RootLayout = () => {
@@ -57,6 +59,8 @@ const router = createBrowserRouter([
       { path: '/verify-otp/:email', element: <VerifyOTP /> },
       { path: '/change-password/:email', element: <ChangePassword /> },
             { path: '/new-arrivals', element: <NewArrivals /> },
+                  { path: '/shop', element: <Shop /> },
+
 
       { path: '/courses', element: <Courses /> },
       { path: '*', element: <NotFound /> },
