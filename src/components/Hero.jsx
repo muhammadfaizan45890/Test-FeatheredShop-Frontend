@@ -14,7 +14,7 @@ import {
 import { motion, useScroll, useTransform } from "framer-motion";
 
 // ✅ Import banner image from assets
-import shoeBanner from "../assets/shoes-banner.jpg";
+import shoeBanner from "../assets/shoes-banner2.jpg";
 
 /* ─────────────────────────────────────────────────────────────────
  * PALETTE — matches navbar / hero / footer / login / signup
